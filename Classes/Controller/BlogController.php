@@ -23,7 +23,7 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      * @var \Pluswerk\Simpleblog\Domain\Repository\BlogRepository
      * @inject
      */
-    protected $blogRepository = null;
+    protected $blogRepository;
 
     /**
      * action list
